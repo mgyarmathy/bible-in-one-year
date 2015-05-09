@@ -1,17 +1,24 @@
-npm module boilerplate
+bible-in-one-year
 ===
 
-Boilerplate for creating a npm/browserify module using tape.
+One year scripture reading plan for the Bible.
 
-[![Build Status](https://travis-ci.org/krambuhl/npm-module-boilerplate.svg)](https://travis-ci.org/krambuhl/npm-module-boilerplate)
+## Installation
 
-Getting Started
----
+    npm install --save bible-in-one-year
 
-```bash
-$ git clone git@github.com:krambuhl/npm-module-boilerplate.git module
-$ cd module
-$ rm -rf .git
-$ git init
-$ git remote add origin https://github.com/user/repo.git
-```
+## Usage
+
+    var bioy = require('bible-in-one-year');
+
+    console.log(bioy.getDay(0));
+    // {"address":"Genesis 1–3; Matthew 1","url":"http://www.biblegateway.com/passage/?version=31&search=Genesis+1%e2%80%933%3b+Matthew+1"}
+
+## Tests
+
+    npm test
+
+## Release History
+
+* 0.1.2 Bug Fix and Update README
+* 0.1.0 Initial Release
