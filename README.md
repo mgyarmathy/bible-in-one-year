@@ -20,5 +20,5 @@ One year scripture reading plan for the Bible.
 
 ## Release History
 
-* 0.1.2 Bug Fix and Update README
+* 0.1.3 Bug Fix and Update README
 * 0.1.0 Initial Release
