@@ -1,15 +1,27 @@
 {
-  "name": "npm-module-boilerplate",
-  "description": "Boilerplate for creating a npm/browserify module.",
-  "homepage": "https://github.com/krambuhl/npm-module-boilerplate",
-  "version": "1.0.3",
+  "name": "bible-in-one-year",
+  "description": "One year scripture reading plan for the Bible.",
+  "homepage": "https://github.com/mgyarmathy/bible-in-one-year",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "test": "tape tests/*.js | tap-spec"
   },
+  "author": "Michael Gyarmathy <michael@gyarmathy.me> (http://michael.gyarmathy.me/)",
+  "licenses": [
+  {
+    "type": "UNLICENSE",
+    "url": "https://github.com/mgyarmathy/bible-in-one-year/blob/master/UNLICENSE"
+  },
+  "keywords": [
+    "bible"
+  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:krambuhl/npm-module-boilerplate.git"
+    "url": "git@github.com:mgyarmathy/bible-in-one-year.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mgyarmathy/bible-in-one-year/issues"
   },
   "devDependencies": {
     "tap-spec": "^2.1.2",
