@@ -9,10 +9,14 @@ One year scripture reading plan for the Bible.
 
 ## Usage
 
-    var bioy = require('bible-in-one-year');
+    var ReadingPlan = require('bible-in-one-year');
 
-    console.log(bioy.getDay(0));
-    // {"address":"Genesis 1–3; Matthew 1","url":"http://www.biblegateway.com/passage/?version=31&search=Genesis+1%e2%80%933%3b+Matthew+1"}
+    var oldnew_testament_plan = ReadingPlan('oldnew-testament');
+
+    console.log(oldnew_testament_plan.getDay(0));
+    // Genesis 1–3; Matthew 1
+
+Available plans are "oldnew-testament", "mcheyne", "chronological", or "new-testament".
 
 ## Tests
 
@@ -20,5 +24,4 @@ One year scripture reading plan for the Bible.
 
 ## Release History
 
-* 0.1.3 Bug Fix and Update README
-* 0.1.0 Initial Release
+* 1.0.0 Initial release

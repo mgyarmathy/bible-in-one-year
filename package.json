@@ -2,7 +2,7 @@
   "name": "bible-in-one-year",
   "description": "One year scripture reading plan for the Bible.",
   "homepage": "https://github.com/mgyarmathy/bible-in-one-year",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "tape tests/*.js | tap-spec"
