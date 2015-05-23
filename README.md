@@ -24,4 +24,5 @@ Available plans are "oldnew-testament", "mcheyne", "chronological", or "new-test
 
 ## Release History
 
+* 1.0.1 Fixed formatting of M'Cheyne entries
 * 1.0.0 Initial release
